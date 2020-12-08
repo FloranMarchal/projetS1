@@ -6,23 +6,24 @@
     width: 37.5rem;
 }
 .bandeau{
-    position: relative;
-    left: -1rem;
+    position: absolute;
+    z-index: 9999;
+    left: 0;
     height: 3.22rem;
 }
 .bandeau>a{
     display: inline-block;
-    position: sticky;
+    position: absolute;
     margin-top: 1rem;
     margin-left: 0.5rem;
 
 }
 .bandeau>img{
     display: inline-block;
-    position: sticky;
+    position: absolute;
     float: right;
     margin-top: 1rem;
-    margin-right: 0.5rem;
+    margin-left: 31rem;
 }
 .menu .gros a{
     display: block;
@@ -32,4 +33,30 @@
     background-position: top;
     background-size: cover;
     left: -1rem;
+}
+.acceuil>header>.entete{
+    width: 37.5rem;
+    height: 63.7rem;
+    padding-top: 25%;
+    background-image: url("../../img/images/sword_art_online_affiche.jpg");
+    background-position: center;
+    background-size:130%;
+    position: relative;
+    left: -1rem;
+    top: 0;
+}
+header>.entete>.logo{
+    background-image: url("../../img/logo/Groupe 8.png");
+
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: -9999px;
+    width: 80%;
+    height: 0;
+    padding-top: 48%;
+    background-size: contain;
+}
+header>.entete>h1{
+    position: relative;
+    margin: auto;
 }
