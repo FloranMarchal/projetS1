@@ -1,0 +1,35 @@
+.menu, .bandeau{
+    background-color: #4D4848;
+    border-right: 1rem solid #B3FFDB;
+    border-left: 1rem solid #B3FFDB;
+
+    width: 37.5rem;
+}
+.bandeau{
+    position: relative;
+    left: -1rem;
+    height: 3.22rem;
+}
+.bandeau>a{
+    display: inline-block;
+    position: sticky;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+
+}
+.bandeau>img{
+    display: inline-block;
+    position: sticky;
+    float: right;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+}
+.menu .gros a{
+    display: block;
+    width: 37.5rem;
+    height: 23.2rem;
+    background-image: url("../../img/images/sword_art_online_affiche.jpg");
+    background-position: top;
+    background-size: cover;
+    left: -1rem;
+}

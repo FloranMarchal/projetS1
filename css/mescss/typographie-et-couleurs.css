@@ -1,0 +1,20 @@
+/*
+color{
+    color: #4D4848;
+    color: #B3FFDB;
+}*/
+
+
+html{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+
+
+body{
+    background-color: #B3FFDB;
+    border-right: #4D4848 1rem solid;
+    border-left: #4D4848 1rem solid;
+}
