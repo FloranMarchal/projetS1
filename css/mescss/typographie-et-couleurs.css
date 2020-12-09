@@ -9,6 +9,7 @@ html{
     overflow-x: hidden;
     overflow-y: scroll;
     scroll-behavior: smooth;
+
 }
 
 
@@ -17,4 +18,21 @@ body{
     background-color: #B3FFDB;
     border-right: #4D4848 1rem solid;
     border-left: #4D4848 1rem solid;
+}
+
+.acceuil{
+    background-color: #4D4848;
+    border-right: #B3FFDB 1rem solid;
+    border-left: #B3FFDB 1rem solid;
+
+}
+.acceuil p{
+    color: #eee;
+}
+
+p  {
+    color: #4D4848;
+    font-size: 1.6rem;
+    width: 30rem;
+    margin: auto;
 }

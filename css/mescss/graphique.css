@@ -39,11 +39,14 @@
     height: 63.7rem;
     padding-top: 25%;
     background-image: url("../../img/images/sword_art_online_affiche.jpg");
-    background-position: center;
-    background-size:130%;
+    background-position: top;
+    background-size:135%;
     position: relative;
     left: -1rem;
     top: 0;
+}
+header>.entete>h1{
+
 }
 header>.entete>.logo{
     background-image: url("../../img/logo/Groupe 8.png");
@@ -55,8 +58,18 @@ header>.entete>.logo{
     height: 0;
     padding-top: 48%;
     background-size: contain;
-}
-header>.entete>h1{
-    position: relative;
+    display: block;
     margin: auto;
 }
+
+.acceuil>header>.entete>img{
+    margin: 20rem auto 8rem auto;
+    display: block;
+}
+.acceuil>header>.entete>p{
+    text-align: center;
+    border: #eee 1px solid;
+    backdrop-filter: blur(5px);
+    backdrop-filter: brightness(0.5);
+}
+
