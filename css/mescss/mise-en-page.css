@@ -6,6 +6,13 @@ html{
     -moz-box-sizing: border-box;
 
 }
+:not(header)>:not(a)>img{
+    width: 37.5rem;
+    border-left: #B3FFDB 1rem solid;
+    border-right: #B3FFDB 1rem solid;
+    position: relative;
+    left: -1rem;
+}
 body{
     width: 375px;
 }
@@ -18,4 +25,9 @@ body{
 .bandeau{
     position: sticky;
     top: 0;
+}
+
+.acceuil>header>.entete>img{
+    margin: 20rem auto 8rem auto;
+    display: block;
 }
