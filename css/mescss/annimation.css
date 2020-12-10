@@ -1,0 +1,29 @@
+.citation>.citation_couverte{
+
+    font-size: 0px;
+    height: 0%;
+    transition: all 600ms ease-in-out;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-bottom: 3rem;
+    filter: opacity(0%);
+}
+.citation.active>.citation_couverte{
+    font-size: 16px;
+
+    height: 100%;
+    filter: opacity(100%);
+}
+
+.citation .a-{
+    display: none;
+}
+.citation .a\+{
+    display: block;
+}
+.citation.active .a-{
+    display: block;
+}
+.citation.active .a\+{
+    display: none;
+}

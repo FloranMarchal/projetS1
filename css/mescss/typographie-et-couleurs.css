@@ -1,7 +1,7 @@
 /*
 color{
     color: #4D4848;
-    color: #B3FFDB;
+    color: #BFFFE4;
     color: #F8B312;
 }*/
 
@@ -17,15 +17,15 @@ html{
 
 
 body{
-    background-color: #B3FFDB;
+    background-color: #BFFFE4;
     border-right: #4D4848 1rem solid;
     border-left: #4D4848 1rem solid;
 }
 
 .acceuil{
     background-color: #4D4848;
-    border-right: #B3FFDB 1rem solid;
-    border-left: #B3FFDB 1rem solid;
+    border-right: #BFFFE4 1rem solid;
+    border-left: #BFFFE4 1rem solid;
 }
 .acceuil p{
     color: #eee;
@@ -37,8 +37,20 @@ p  {
     width: 30rem;
     margin: auto;
 }
-h2{
+.les-articles>h2{
     font-family: sao_uiregular;
     color: #f8b312;
     font-size: 2.5rem;
+}
+h2{
+    color: #4D4848;
+}
+.citation {
+    color: #eeeeee;
+}
+.citation p{
+    color: #eeeeee;
+    margin-bottom: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }

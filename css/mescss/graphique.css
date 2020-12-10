@@ -1,7 +1,7 @@
 .menu, .bandeau{
     background-color: #4D4848;
-    border-right: 1rem solid #B3FFDB;
-    border-left: 1rem solid #B3FFDB;
+    border-right: 1rem solid #BFFFE4;
+    border-left: 1rem solid #BFFFE4;
 
     width: 37.5rem;
 }
@@ -95,7 +95,18 @@ header>.entete>.logo{
 .les-articles *{
  position: absolute;
 }
-h2{
+.les-articles>h2{
     backdrop-filter: blur(5px) brightness(0.5);
     border: #f8b312 1px solid;
+}
+
+.a-,.a\+{
+    position: absolute;
+    background-image: url("../../img/interface/bouton large.svg");
+    width: 20.5rem;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    left: calc((37.5rem - 20.5rem) * 0.5);
+
 }

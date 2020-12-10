@@ -8,15 +8,14 @@ html{
 }
 :not(header)>:not(a)>img{
     width: 37.5rem;
-    border-left: #B3FFDB 1rem solid;
-    border-right: #B3FFDB 1rem solid;
+    border-left: #BFFFE4 1rem solid;
+    border-right: #BFFFE4 1rem solid;
     position: relative;
     left: -1rem;
 }
 body{
     width: 375px;
 }
-
 .menu{
     position: absolute;
     left: 10000px;
@@ -26,7 +25,6 @@ body{
     position: sticky;
     top: 0;
 }
-
 .acceuil>header>.entete>img{
     margin: 20rem auto 8rem auto;
     display: block;
@@ -36,10 +34,27 @@ header,main{
 }
 .les-articles>h2{
     text-align: center;
-
     width: 33.5rem;
     height: 9.5rem;
     margin: 2rem;
     left: 0;
+    padding: 3rem;
+}
+.les-articles .article2 + h2{
+    padding: 1.8rem;
+}
+.les-articles {
+    margin-bottom: 1rem;
+}
 
+p{
+    margin-bottom: 2rem;
+}
+.citation{
+    width: 37.5rem;
+    background-color: #4D4848;
+    border-left: #BFFFE4 1rem solid;
+    border-right: #BFFFE4 1rem solid;
+    position: relative;
+    left: -1rem;
 }
