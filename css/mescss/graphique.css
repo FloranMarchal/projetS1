@@ -47,7 +47,6 @@
 
 header>.entete>.logo{
     background-image: url("../../img/logo/Groupe 8.png");
-
     background-repeat: no-repeat;
     display: block;
     text-indent: -9999px;
@@ -68,19 +67,35 @@ header>.entete>.logo{
 }
 .article1,.article2,.article3{
     position: relative;
-    left: -1rem;
     background-position: center;
     background-size: 100%;
     width: 37.5rem;
     height: 13.5rem;
-    margin-bottom: 1rem;
+    left: 0;
 }
 .article1{
     background-image: url("../../img/images/elucidator.jpg");
 }
+
 .article2{
     background-image: url("../../img/images/Aincrade_destroyed.jpg");
 }
 .article3{
     background-image: url("../../img/images/image_début.jpg");
+}
+.filtre{
+    width: 375px;
+    height: 13.5rem;
+    background: #eeeeee;
+    filter: opacity(50%);
+}
+.les-articles{
+    height: 13.5rem;
+}
+.les-articles *{
+ position: absolute;
+}
+h2{
+    backdrop-filter: blur(5px) brightness(0.5);
+    border: #f8b312 1px solid;
 }

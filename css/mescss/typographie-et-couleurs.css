@@ -2,7 +2,9 @@
 color{
     color: #4D4848;
     color: #B3FFDB;
+    color: #F8B312;
 }*/
+
 
 
 html{
@@ -24,7 +26,6 @@ body{
     background-color: #4D4848;
     border-right: #B3FFDB 1rem solid;
     border-left: #B3FFDB 1rem solid;
-
 }
 .acceuil p{
     color: #eee;
@@ -35,4 +36,9 @@ p  {
     font-size: 1.6rem;
     width: 30rem;
     margin: auto;
+}
+h2{
+    font-family: sao_uiregular;
+    color: #f8b312;
+    font-size: 2.5rem;
 }
