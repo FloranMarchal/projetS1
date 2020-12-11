@@ -1,0 +1,64 @@
+.acceuil>header>.entete>img{
+    margin: 20rem auto 8rem auto;
+    display: block;
+}
+.les-articles .fleche{
+    right: 4rem;
+    bottom: 5rem;
+}
+.bandeau>a{
+    display: inline-block;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+.bandeau>a:nth-child(2n){
+    display: inline-block;
+    position: absolute;
+    float: right;
+    margin-top: 1rem;
+    margin-left: 31rem;
+}
+/*acceuil images articles et menu*/
+.article1,.article2,.article3,.autres,.info{
+
+    background-position: center;
+    background-size: 100%;
+    width: 37.5rem;
+    height: 13.5rem;
+    left: 0;
+}
+.gros{
+    display: block;
+    width: 37.5rem;
+    height: 23.2rem;
+    background-image: url("../../img/images/sword_art_online_affiche.jpg");
+    background-position: top;
+    background-size: cover;
+    left: 0;
+}
+.article1{
+    background-image: url("../../img/images/elucidator.jpg");
+}
+.article2{
+    background-image: url("../../img/images/Aincrade_destroyed.jpg");
+}
+.article3{
+    background-image: url("../../img/images/image_début.jpg");
+}
+.info{
+    background-image: url("../../img/images/cables.jpg");
+}
+.autres{
+    background-image: url("../../img/images/ensemble_rien_ne_peut_nous_arriver_grace_au_pouvoir_de_l_amitié_!!_coeur_coeur.jpg");
+}
+/*citation*/
+.a-,.a\+{
+    position: absolute;
+    background-image: url("../../img/interface/bouton large.svg");
+    width: 20.5rem;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    left: calc((37.5rem - 20.5rem) * 0.5);
+}

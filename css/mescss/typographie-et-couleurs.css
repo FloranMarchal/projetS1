@@ -4,6 +4,24 @@ color{
     color: #BFFFE4;
     color: #F8B312;
 }*/
+/*déclarations générales*/
+
+body{
+    width: 375px;
+}
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+header,main{
+    margin-bottom: 1rem;
+}
+p{
+    margin-bottom: 2rem;
+}
+.les-articles *,.les-gros-articles *,.les-petits-articles *{
+    position: absolute;
+}
 
 
 
@@ -34,8 +52,6 @@ body{
 p  {
     color: #4D4848;
     font-size: 1.6rem;
-    width: 30rem;
-    margin: auto;
 }
 .les-articles>h2{
     font-family: sao_uiregular;
@@ -50,7 +66,28 @@ h2{
 }
 .citation p{
     color: #eeeeee;
-    margin-bottom: 0;
-    margin-left: 1rem;
-    margin-right: 1rem;
+}
+.acceuil>header>.entete>p {
+    border: #eee 1px solid;
+}
+:not(header)>:not(a)>img {
+    border-left: #BFFFE4 1rem solid;
+    border-right: #BFFFE4 1rem solid;
+}
+.citation {
+    background-color: #4D4848;
+    border-left: #BFFFE4 1rem solid;
+    border-right: #BFFFE4 1rem solid;
+}
+.menu, .bandeau {
+    background-color: #4D4848;
+    border-right: 1rem solid #BFFFE4;
+    border-left: 1rem solid #BFFFE4;
+}
+.filtre {
+    background: #eeeeee;
+}
+.les-articles>h2,.les-gros-articles>h2,.les-petits-articles>h2 {
+    backdrop-filter: blur(5px) brightness(0.5);
+    border: #f8b312 1px solid;
 }

@@ -1,0 +1,31 @@
+p  {
+    width: 30rem;
+    margin: auto;
+}
+.citation p{
+    margin-bottom: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.acceuil>header>.entete>p{
+    text-align: center;
+    backdrop-filter: blur(5px) brightness(0.5);
+
+}
+
+
+.les-articles .article2 + h2{
+    padding: 1.8rem;
+}
+.les-articles>h2,.les-gros-articles>h2,.les-petits-articles>h2{
+    backdrop-filter: blur(5px) brightness(0.5);
+}
+.les-articles>h2{
+    text-align: center;
+    width: 33.5rem;
+    height: 9.5rem;
+    margin: 2rem;
+    left: 0;
+    padding: 3rem;
+}
+

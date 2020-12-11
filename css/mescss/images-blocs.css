@@ -1,0 +1,72 @@
+
+
+
+
+
+
+:not(header)>:not(a)>img{
+    width: 37.5rem;
+    position: relative;
+    left: -1rem;
+}
+.bandeau{
+    position: sticky;
+    top: 0;
+}
+
+.les-articles,.les-gros-articles,.les-petits-articles{
+    margin-bottom: 1rem;
+    position: relative;
+    margin-left: -1rem;
+    height: 13.5rem;
+}
+
+.citation{
+    width: 37.5rem;
+    position: relative;
+    left: -1rem;
+}
+
+
+/*bandeau*/
+.menu, .bandeau{
+    width: 37.5rem;
+}
+.bandeau{
+    position: sticky;
+    z-index: 1;
+    margin-left: -1rem;
+    height: 3.22rem;
+}
+
+
+/*entete*/
+
+.acceuil>header>.entete{
+    width: 37.5rem;
+    height: 63.7rem;
+    padding-top: 25%;
+    background-image: url("../../img/images/sword_art_online_affiche.jpg");
+    background-position: top;
+    background-size:135%;
+    position: relative;
+    left: -1rem;
+    top: 0;
+}
+header>.entete>.logo{
+    background-image: url("../../img/logo/Groupe 8.png");
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: -9999px;
+    width: 80%;
+    height: 0;
+    padding-top: 48%;
+    background-size: contain;
+    margin: auto;
+}
+
+.filtre{
+    width: 375px;
+    height: 13.5rem;
+    filter: opacity(50%);
+}
