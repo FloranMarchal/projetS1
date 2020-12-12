@@ -1,27 +1,5 @@
 
-
-
-
-
-
 :not(header)>:not(a)>img{
-    width: 37.5rem;
-    position: relative;
-    left: -1rem;
-}
-.bandeau{
-    position: sticky;
-    top: 0;
-}
-
-.les-articles,.les-gros-articles,.les-petits-articles{
-    margin-bottom: 1rem;
-    position: relative;
-    margin-left: -1rem;
-    height: 13.5rem;
-}
-
-.citation{
     width: 37.5rem;
     position: relative;
     left: -1rem;
@@ -29,14 +7,15 @@
 
 
 /*bandeau*/
-.menu, .bandeau{
-    width: 37.5rem;
-}
+
+
 .bandeau{
     position: sticky;
     z-index: 1;
     margin-left: -1rem;
     height: 3.22rem;
+    top: 0;
+    width: 37.5rem;
 }
 
 
@@ -65,8 +44,34 @@ header>.entete>.logo{
     margin: auto;
 }
 
+
+
+
+.les-articles{
+    height: 13.5rem;
+    width: 37.5rem;
+}
+.les-articles,.les-gros-articles,.les-petits-articles{
+    margin-bottom: 1rem;
+    position: relative;
+    margin-left: -1rem;
+    height: 13.5rem;
+}
 .filtre{
     width: 375px;
     height: 13.5rem;
-    filter: opacity(50%);
+
 }
+
+
+.citation{
+    width: 37.5rem;
+    position: relative;
+    left: -1rem;
+}
+
+
+
+
+
+

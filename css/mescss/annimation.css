@@ -28,7 +28,96 @@
 .citation.active .a\+{
     display: none;
 }
+
+
+/*background*/
 .menu{
-    position: absolute;
-z-index: 999;
+
+    z-index: 999;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    transform:translateY(-300vw);
+    transition: ease-in-out .3s;
+    transition-delay: .25s;
+}
+.menu-open .menu{
+    transform: translateY(0);
+    transition-delay: 0s;
+    visibility: visible;
+}
+
+
+/*bas-gauche*/
+.menu .les-petits-articles:first-of-type{
+    transform: translateX(-50vw) translateY(50vw);
+    transition: ease-in-out .25s;
+    transition-delay: 0s;
+}
+.menu-open .menu .les-petits-articles:first-of-type{
+    transform: translateX(0) translateY(0);
+
+    transition-delay: .3s;
+}
+
+
+/*bas-droite*/
+.menu .les-petits-articles:last-of-type{
+    transform: translateX(50vw) translateY(50vw);
+    transition: ease-in-out .25s;
+    transition-delay: 0s;
+}
+.menu-open .menu .les-petits-articles:last-of-type{
+    transform: translateX(0) translateY(0);
+    transition-delay: .3s;
+}
+
+
+/*moyen 1er*/
+.menu .les-articles:first-of-type{
+    transform: translateX(100vw);
+    transition: ease-in-out .25s;
+    transition-delay: 0s;
+}
+.menu-open .menu .les-articles:first-of-type{
+    transform: translateX(0);
+    transition-delay: .3s;
+}
+
+
+/*moyen2eme*/
+.menu .les-articles:nth-child(2n){
+    transform: translateX(-100vw);
+    transition: ease-in-out .25s;
+    transition-delay: 0s;
+}
+.menu-open .menu .les-articles:nth-child(2n){
+    transform: translateX(0);
+    transition-delay: .3s;
+}
+
+
+/*moyen 3eme*/
+.menu .les-articles:nth-child(3n){
+    transform: translateX(100vw);
+    transition: ease-in-out .25s;
+    transition-delay: 0s;
+}
+.menu-open .menu .les-articles:nth-child(3n){
+    transform: translateX(0);
+    transition-delay: .3s;
+}
+
+
+/*grand*/
+.menu .les-gros-articles{
+    transform: translateY(-100vw);
+    transition: ease-in-out .25s;
+    transition-delay: 0s;
+}
+.menu-open .menu .les-gros-articles{
+    transform: translateY(0);
+    transition-delay: .3s;
 }
