@@ -20,12 +20,12 @@
 
 
 /*acceuil images articles et MENU*/
-.menu a{
+.menu a,.les-articles a {
     background-position: center;
     background-size: cover;
 }
 
-.les-articles a {
+.les-articles a:not(.fleche) {
     height: 13.5rem;
     width: 37.5rem;
 }
@@ -34,7 +34,7 @@
     width: 37.5rem;
     background-position: top;
 }
-.les-petits-articles,.les-petits-articles a, .les-petits-articles .filtre{
+.les-petits-articles,.les-petits-articles a:not(.fleche), .les-petits-articles .filtre{
     height: 13.5rem;
     width: calc(37.5rem/2);
     display: table-cell;

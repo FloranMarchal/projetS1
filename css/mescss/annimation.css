@@ -1,6 +1,30 @@
 /*citation animatio*/
-.citation>.citation_couverte{
 
+
+.bandeau{
+    animation-duration: .5s;
+    animation-name: arrive;
+    position: fixed;
+    z-index: 1;
+    margin-left: -1rem;
+    height: 3.22rem;
+    top: 0;
+    width: 37.5rem;
+}
+@keyframes arrive {
+    from{
+        height: 100rem;
+    }
+    to{
+        height: 3.22rem;
+    }
+}
+.bandeau-open .bandeau{
+    height: 100rem;
+    transition: ease-in-out 100ms;
+}
+
+.citation>.citation_couverte{
     font-size: 0;
     height: 0;
     transition: all 600ms ease-in-out;
@@ -35,19 +59,19 @@
 
     z-index: 999;
     left: 0;
-    top: 0;
+    top: -250vw;
     right: 0;
-    bottom: 0;
+    bottom: 250vw;
     position: fixed;
-    transform:translateY(-300vw);
-    transition: ease-in-out .3s;
+    transition: ease-in-out .25s;
     transition-delay: .25s;
 }
 .menu-open .menu{
-    transform: translateY(0);
+    top: 0;
+    bottom: 0;
     transition-delay: 0s;
-    visibility: visible;
 }
+
 
 
 /*bas-gauche*/
@@ -102,7 +126,7 @@
 /*moyen 3eme*/
 .menu .les-articles:nth-child(3n){
     transform: translateX(100vw);
-    transition: ease-in-out .25s;
+    transition: ease-in-out .1s;
     transition-delay: 0s;
 }
 .menu-open .menu .les-articles:nth-child(3n){
@@ -121,3 +145,6 @@
     transform: translateY(0);
     transition-delay: .3s;
 }
+
+
+

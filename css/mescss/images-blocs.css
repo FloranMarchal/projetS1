@@ -6,17 +6,8 @@
 }
 
 
-/*bandeau*/
 
 
-.bandeau{
-    position: sticky;
-    z-index: 1;
-    margin-left: -1rem;
-    height: 3.22rem;
-    top: 0;
-    width: 37.5rem;
-}
 
 
 /*entete*/

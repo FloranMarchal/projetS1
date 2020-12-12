@@ -16,8 +16,7 @@ p  {
 .les-articles .article2 + h2{
     padding: 1.8rem;
 }
-.menu h2{
-
+.les-articles h2,.menu h2{
     text-align: center;
     margin: 2rem;
     left: 0;
@@ -34,6 +33,5 @@ p  {
 .les-petits-articles>h2{
     width: 14.75rem;
     height: 9.5rem;
-
 }
 
