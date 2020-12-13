@@ -7,9 +7,6 @@
 
 
 
-
-
-
 /*entete*/
 .entete{
     position: relative;
@@ -44,7 +41,10 @@ header>.entete>.logo{
     margin: auto;
 }
 
-
+/*main*/
+main{
+    padding: 1rem 0;
+}
 
 
 .les-articles{
@@ -77,9 +77,15 @@ header>.entete>.logo{
 footer{
     background-color: #4D4848;
     padding: 1rem;
+    text-align: center;
 }
 .acceuil>footer{
     background-color: #BFFFE4;
+
 }
-
-
+footer>h2 {
+    color: #eeeeee;
+}
+.acceuil>footer>h2{
+    color: #4D4848;
+}

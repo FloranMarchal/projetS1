@@ -78,7 +78,8 @@
     font-size: 16px;
     text-align: center;
     line-height: 40px;
-    left: calc((37.5rem - 20.5rem) * 0.5);
+    left: calc((35.5rem - 20.5rem) * 0.5);
+    bottom: -2rem;
 }
 
 
@@ -91,9 +92,45 @@ footer>a{
     text-align: center;
     line-height: 40px;
     left: calc((37.5rem - 20.5rem) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: none;
+    color: #eeeeee;
+}
+footer>ul{
+    padding: 0;
 }
 footer>ul li{
     display: inline-block;
     list-style: none;
 
+}
+footer>ul>li:first-child{
+    background-image: url("../../img/interface/mail.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+}
+footer>ul>li:nth-child(2n){
+    background-image: url("../../img/interface/instagram.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+}
+footer>ul>li:nth-child(3n){
+    background-image: url("../../img/interface/twitter.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+}
+span{
+    clip: rect(1px,1px,1px,1px);
+    position: absolute;
+    display: block;
 }
