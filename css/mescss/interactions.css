@@ -5,6 +5,9 @@
 }
 
 /*bandeau*/
+a{
+    text-decoration: none;
+}
 .bandeau>a{
     display: inline-block;
     position: absolute;
@@ -145,4 +148,51 @@ main>.fleche-suivant>img{
 }
 main>.fleche-precedant>img{
     left: 1rem;
+}
+
+
+
+/*carousel*/
+
+
+.carousel a p{
+    text-align: center;
+    color: #f8b312;
+    font-size: 2rem;
+    width: 22rem;
+
+}
+.carousel li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.carousel img{
+    display: block;
+    width: auto;
+    vertical-align: middle;
+    border: none;
+    max-width: 100%;
+    height: 17.5rem;
+    margin: auto;
+}
+.carousel{
+    color: #f8b312;
+    padding: 2rem 0;
+}
+.carousel-item{
+    background-color: #4D4848;
+    padding: 2rem 0;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-snap-align: center;
+}
+.carousel-item{
+    flex: 1 0;
+}
+::-webkit-scrollbar{
+    height: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #f8b312;
 }

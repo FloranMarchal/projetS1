@@ -67,6 +67,12 @@
     </div>
 </header>
 <main>
+    <h2>Infos pratiques</h2>
+    <p>
+        J'étudies au département MMI de Montbéliard. Ce site à été réalisé pour le projet du semestre 1 de première année.
+    </p>
+    <h2>Contact</h2>
+    <div class="formulaire">
     <ul>
         <li>
             <label for="name">Nom</label>
@@ -77,21 +83,25 @@
             <input type="text" id="firstname" name="user_name">
         </li>
         <li>
-            <label for="mail">E-mail</label>
-            <i class="fas fa-asterisk" aria-hidden="true"></i>
+            <label for="mail">E-mail *</label>
             <input type="email" id="mail" name="user_mail">
         </li>
         <li>
-            <label for="msg">Votre message</label>
+            <label for="msg">Votre message *</label>
             <textarea id="msg" name="user_message"></textarea>
         </li>
         <li>
-            <p><i class="fas fa-asterisk" aria-hidden="true"></i>Champs obligatoires</p>
+            <p>* Champs obligatoires</p>
+        </li>
+        <li>
+            <label for="check">J'aimerai être notifié des nouveautés</label>
+            <input type="checkbox" id="check">
         </li>
         <li class="button">
-            <button type="submit">Envoyer</button>
+            <button type="submit"></button>
         </li>
     </ul>
+    </div>
 </main>
 </body>
 <footer>
