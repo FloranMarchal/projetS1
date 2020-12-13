@@ -21,7 +21,8 @@
 }
 .bandeau-open .bandeau{
     height: 100rem;
-    transition: ease-in-out 100ms;
+    transition: ease-in-out .25s;
+    transition-delay: 0s;
 }
 
 .citation>.citation_couverte{
