@@ -2,25 +2,24 @@
 
 
 .bandeau{
-    animation-duration: .5s;
+    animation-duration: .25s;
     animation-name: arrive;
     position: fixed;
     z-index: 1;
-
-    height: 3.22rem;
-    top: 0;
+    height: 103.22rem;
+    top: -100rem;
     width: 37.5rem;
 }
 @keyframes arrive {
     from{
-        height: 100rem;
+        top: 0;
     }
     to{
-        height: 3.22rem;
+        top: -100rem;
     }
 }
 .bandeau-open .bandeau{
-    height: 100rem;
+    transform: translateY(100rem);
     transition: ease-in-out .25s;
     transition-delay: 0s;
 }
@@ -123,7 +122,6 @@
     transition-delay: .3s;
 }
 
-
 /*moyen 3eme*/
 .menu .les-articles:nth-child(3n){
     transform: translateX(100vw);
@@ -134,7 +132,6 @@
     transform: translateX(0);
     transition-delay: .3s;
 }
-
 
 /*grand*/
 .menu .les-gros-articles{

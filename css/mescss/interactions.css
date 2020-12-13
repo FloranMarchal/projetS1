@@ -8,14 +8,10 @@
 .bandeau>a{
     display: inline-block;
     position: absolute;
-    margin-top: 1rem;
     margin-left: 0.5rem;
+    bottom: -2rem;
 }
 .bandeau>a:nth-child(2n){
-    display: inline-block;
-    position: absolute;
-    float: right;
-    margin-top: 1rem;
     margin-left: 31rem;
 }
 
@@ -99,6 +95,11 @@
 
 footer>ul li{
     display: inline-block;
+}
+footer>ul li>a{
+    width: 40px;
+    height: 40px;
+    display: block;
 }
 footer>ul>li:first-child{
     background-image: url("../../img/interface/mail.svg");
