@@ -2,7 +2,7 @@
 
 
 .bandeau{
-    animation-duration: .25s;
+    animation-duration: 0.25s;
     animation-name: arrive;
     position: fixed;
     z-index: 1;
@@ -12,16 +12,23 @@
 }
 @keyframes arrive {
     from{
-        top: 0;
+        transform: translateY(100rem);
     }
     to{
-        top: -100rem;
+        transform: translateY(0rem);
+    }
+}
+@keyframes depart {
+    from{
+        transform: translateY(0rem);
+    }
+    to{
+        transform: translateY(100rem);
     }
 }
 .bandeau-open .bandeau{
-    transform: translateY(100rem);
-    transition: ease-in-out .25s;
-    transition-delay: 0s;
+    animation-duration: 0.25s;
+    animation-name: depart;
 }
 
 .citation>.citation_couverte{
