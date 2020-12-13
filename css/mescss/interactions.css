@@ -1,5 +1,6 @@
-.acceuil>header>.entete>img{
-    margin: 20rem auto 8rem auto;
+.acceuil>header>.entete>a{
+    width: 4rem;
+    margin: 18rem auto 5rem auto;
     display: block;
 }
 
@@ -59,7 +60,7 @@
     background-image: url("../../img/images/cables.jpg");
 }
 .autres{
-    background-image: url("../../img/images/ensemble_rien_ne_peut_nous_arriver_grace_au_pouvoir_de_l_amitié_!!_coeur_coeur.jpg");
+    background-image: url("../../img/images/ensemble_rien_ne_peut_nous_arriver_grace_au_pouvoir_de_l_amitié.jpg");
 }
 .les-articles .fleche{
     right: 4rem;
@@ -78,4 +79,21 @@
     text-align: center;
     line-height: 40px;
     left: calc((37.5rem - 20.5rem) * 0.5);
+}
+
+
+/*footer*/
+footer>a{
+    display: block;
+    background-image: url("../../img/interface/bouton large.svg");
+    width: 20.5rem;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    left: calc((37.5rem - 20.5rem) * 0.5);
+}
+footer>ul li{
+    display: inline-block;
+    list-style: none;
+
 }

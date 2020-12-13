@@ -1,3 +1,18 @@
+
+h1:not(.logo){
+    text-align: center;
+
+    margin: 20% 12.5%;
+    padding: 1rem;
+    width: 75%;
+    height: 35%;
+    position: absolute;
+
+}
+
+
+
+
 p  {
     width: 30rem;
     margin: auto;
@@ -34,4 +49,6 @@ p  {
     width: 14.75rem;
     height: 9.5rem;
 }
+
+/*footer*/
 

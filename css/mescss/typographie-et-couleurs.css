@@ -13,9 +13,7 @@ body{
     box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
-header,main{
-    margin-bottom: 1rem;
-}
+
 p{
     margin-bottom: 2rem;
 }
@@ -34,13 +32,14 @@ html{
 
 
 
-body{
+main{
     background-color: #BFFFE4;
     border-right: #4D4848 1rem solid;
     border-left: #4D4848 1rem solid;
+
 }
 
-.acceuil{
+.acceuil main{
     background-color: #4D4848;
     border-right: #BFFFE4 1rem solid;
     border-left: #BFFFE4 1rem solid;
@@ -53,7 +52,7 @@ p  {
     color: #4D4848;
     font-size: 1.6rem;
 }
-.menu h2,.les-articles h2{
+.menu h2,.les-articles h2,h1:not(.logo){
     font-family: sao_uiregular;
     color: #f8b312;
     font-size: 2.5rem;
@@ -88,7 +87,7 @@ h2{
     background: #eeeeee;
     filter: opacity(62.5%);
 }
-.les-articles>h2,.les-gros-articles>h2,.les-petits-articles>h2 {
+.les-articles>h2,.les-gros-articles>h2,.les-petits-articles>h2,h1:not(.logo) {
     backdrop-filter: blur(5px) brightness(0.4);
     border: #f8b312 1px solid;
 }
