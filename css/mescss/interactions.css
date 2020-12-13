@@ -196,3 +196,44 @@ main>.fleche-precedant>img{
 ::-webkit-scrollbar-thumb{
     background-color: #f8b312;
 }
+
+
+
+
+
+
+
+
+
+/*galerie*/
+.galerie{
+    background-color: #4D4848;
+    border-left: #BFFFE4 1rem solid;
+    border-right: #BFFFE4 1rem solid;
+    padding-bottom: 110rem;
+}
+.galerie img{
+    width: calc(35.5rem/2 );
+    height: 235px;
+    border: none;
+
+}
+.galerie li{
+    width: calc(35.5rem/2 );
+   display: inline-block;
+}
+.galerie p{
+    margin-top: 2rem;
+    width: calc(35.5rem/2 );
+    color: #eeeeee;
+    text-align: center;
+}
+.galerie>h2{
+    color: #f8b312;
+    padding-top: 5rem;
+    font-size: 3rem;
+    text-align: center;
+}
+.galerie a{
+
+}

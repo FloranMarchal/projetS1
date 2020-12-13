@@ -2,14 +2,15 @@
 
 
 .bandeau{
+    z-index: 998;
     animation-duration: 0.25s;
     animation-name: arrive;
     position: fixed;
-    z-index: 1;
     height: 103.22rem;
     top: -100rem;
     width: 37.5rem;
 }
+
 @keyframes arrive {
     from{
         transform: translateY(100rem);
@@ -63,22 +64,34 @@
 
 /*background*/
 .menu{
-
-    z-index: 999;
-    left: 0;
-    top: -250vw;
-    right: 0;
-    bottom: 250vw;
     position: fixed;
+    z-index: 999;
+}
+.galerie{
+    z-index: 997;
+    position: absolute;
+}
+.menu,.galerie{
+    left: 0;
+    top: -300vw;
+    right: 0;
+    bottom: 300vw;
     transition: ease-in-out .25s;
     transition-delay: .25s;
 }
-.menu-open .menu{
+.menu-open .menu,.galerie-open .galerie{
     top: 0;
     bottom: 0;
     transition-delay: 0s;
 }
-
+.galerie-open main{
+    position: fixed;
+    animation-delay: 3s;
+}
+main{
+    position: relative;
+    transition-delay: 0s;
+}
 
 
 /*bas-gauche*/
@@ -150,6 +163,5 @@
     transform: translateY(0);
     transition-delay: .3s;
 }
-
 
 
