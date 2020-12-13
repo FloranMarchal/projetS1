@@ -81,10 +81,7 @@
     left: calc((35.5rem - 20.5rem) * 0.5);
     bottom: -2rem;
 }
-
-
-/*footer*/
-footer>a{
+.bouton-large{
     display: block;
     background-image: url("../../img/interface/bouton large.svg");
     width: 20.5rem;
@@ -97,6 +94,9 @@ footer>a{
     text-decoration: none;
     color: #eeeeee;
 }
+
+/*footer*/
+
 footer>ul{
     padding: 0;
 }
