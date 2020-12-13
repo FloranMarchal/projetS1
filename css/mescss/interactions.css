@@ -26,7 +26,7 @@
     background-size: cover;
 }
 
-.les-articles a:not(.fleche) {
+.les-articles a:not(.fleche-suivant) {
     height: 13.5rem;
     width: 37.5rem;
 }
@@ -35,7 +35,7 @@
     width: 37.5rem;
     background-position: top;
 }
-.les-petits-articles,.les-petits-articles a:not(.fleche), .les-petits-articles .filtre{
+.les-petits-articles,.les-petits-articles a:not(.fleche-suivant), .les-petits-articles .filtre{
     height: 13.5rem;
     width: calc(37.5rem/2);
     display: table-cell;
@@ -62,8 +62,8 @@
 .autres{
     background-image: url("../../img/images/ensemble_rien_ne_peut_nous_arriver_grace_au_pouvoir_de_l_amitié.jpg");
 }
-.les-articles .fleche{
-    right: 4rem;
+.les-articles .fleche-suivant{
+    right: 5rem;
     bottom: 5rem;
 }
 
@@ -97,13 +97,8 @@
 
 /*footer*/
 
-footer>ul{
-    padding: 0;
-}
 footer>ul li{
     display: inline-block;
-    list-style: none;
-
 }
 footer>ul>li:first-child{
     background-image: url("../../img/interface/mail.svg");
@@ -133,4 +128,20 @@ span{
     clip: rect(1px,1px,1px,1px);
     position: absolute;
     display: block;
+}
+
+
+
+
+
+main>a>img{
+    position: absolute;
+    bottom: -2rem;
+
+}
+main>.fleche-suivant>img{
+    right: 1rem;
+}
+main>.fleche-precedant>img{
+    left: 1rem;
 }

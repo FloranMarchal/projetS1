@@ -44,6 +44,7 @@ header>.entete>.logo{
 /*main*/
 main{
     padding: 1rem 0;
+    position: relative;
 }
 
 
@@ -68,6 +69,7 @@ main{
     width: 37.5rem;
     position: relative;
     left: -1rem;
+    margin-bottom: 2rem;
 }
 
 
@@ -79,13 +81,4 @@ footer{
     padding: 1rem;
     text-align: center;
 }
-.acceuil>footer{
-    background-color: #BFFFE4;
 
-}
-footer>h2 {
-    color: #eeeeee;
-}
-.acceuil>footer>h2{
-    color: #4D4848;
-}

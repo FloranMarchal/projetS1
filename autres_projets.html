@@ -14,30 +14,62 @@
     <link rel="stylesheet" href="css/mescss/annimation.css">
     <title>Rescom</title>
 </head>
-<header>
-    <div class="menu">
-        <div class="gros">
-        <a href="index.html">Rescom</a>
-        </div>
+<body>
+<nav class="bandeau">
+    <a class="interface" href="index.html">
+        <img src="img/logo/logo%20rescom%20svg.svg" width="40rem" height="40rem" alt="Logo" onclick="this.parentNode.classList.toggle('active')">
+    </a>
+    <a class="interface">
         <img
-                src="img/interface/bouton%20croix.svg"
+                src="img/interface/menu_icone.svg"
                 alt="icone menu"
-                onclick="this.parentNode.classList.toggle('active')"/>
+                onclick="document.documentElement.classList.toggle('menu-open')"/>
+    </a>
 
-        <a href="le_point.html">Le point sur Sword art online</a>
-        <a href="Problemes.html">Problèmes de la communication numérique</a>
-        <a href="astuces.html">Trucs et Astuces</a>
-        <div class="colonnes">
-        <a href="propos.html">Infos pratiques</a>
-        <a href="autres_projets.html">Autres projets</a>
-        </div>
+</nav>
+<div class="menu">
+    <div class="les-gros-articles">
+        <a href="index.html" class="gros"><div class="filtre"></div></a>
+        <h2>Trucs et Astuces</h2>
+        <a><img src="img/interface/bouton%20croix.svg"
+                alt="icone menu"
+                onclick="document.documentElement.classList.toggle('menu-open')"/></a>
     </div>
 
+
+    <div class="les-articles">
+        <a href="le_point.html" class="article1"><div class="filtre"></div></a>
+        <h2>Le point sur Sao</h2>
+    </div>
+    <div class="les-articles">
+        <a href="Problemes.html" class="article2"><div class="filtre"></div></a>
+        <h2>Le problème de la communication numérique</h2>
+    </div>
+    <div class="les-articles">
+        <a href="astuces.html" class="article3"><div class="filtre"></div></a>
+        <h2>Trucs et Astuces</h2>
+    </div>
+    <div class="les-articles">
+        <div class="les-petits-articles">
+            <a href="propos.html" class="info"><div class="filtre"></div></a>
+            <h2>Infos pratiques</h2>
+        </div>
+        <div class="les-petits-articles">
+            <a href="autres_projets.html" class="autres"><div class="filtre"></div></a>
+            <h2>Autres projets</h2>
+        </div>
+    </div>
+</div>
+<header>
+    <div class="entete">
+        <img src="img/images/ensemble_rien_ne_peut_nous_arriver_grace_au_pouvoir_de_l_amitié.jpg" alt="kirito et ses amis">
+        <h1>Autres Projets</h1>
+    </div>
 </header>
 <main>
 
 </main>
-<body>
+
 
 </body>
 <footer>

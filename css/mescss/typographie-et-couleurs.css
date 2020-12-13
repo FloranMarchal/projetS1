@@ -90,3 +90,15 @@ h2{
     backdrop-filter: blur(5px) brightness(0.4);
     border: #f8b312 1px solid;
 }
+.acceuil>footer{
+    background-color: #BFFFE4;
+}
+footer{
+    background-color: #4D4848;
+}
+footer>h2 {
+    color: #eeeeee;
+}
+.acceuil>footer>h2{
+    color: #4D4848;
+}
