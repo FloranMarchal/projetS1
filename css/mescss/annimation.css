@@ -164,4 +164,29 @@ main{
     transition-delay: .3s;
 }
 
+.video-open .video{
+    top: 0;
+    transition: 0.5s ease-in-out;
+}
+.video{
+    position: fixed;
+    width: 37.5rem;
+    z-index: 996;
+    top: -200rem;
 
+    background-color: #4D4848;
+    border-left: #BFFFE4 1rem solid;
+    border-right: #BFFFE4 1rem solid;
+    padding-bottom: 2rem;
+    transition: 0.5s ease-in-out;
+}
+.video a{
+    position: absolute;
+}
+video{
+    margin-left: -1rem;
+margin-top: 10rem;
+    margin-bottom: 2rem;
+    width: 37.5rem;
+
+}
