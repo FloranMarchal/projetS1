@@ -44,22 +44,22 @@ a{
     top: 1rem;
 }
 .gros{
-    background-image: url("../../img/images/sword_art_online_affiche.jpg");
+    background-image: url("../../img/images/sword_art_online_affiche.webp");
 }
 .article1{
-    background-image: url("../../img/images/elucidator.jpg");
+    background-image: url("../../img/images/elucidator.webp");
 }
 .article2{
-    background-image: url("../../img/images/Aincrade_destroyed.jpg");
+    background-image: url("../../img/images/Aincrade_destroyed.webp");
 }
 .article3{
-    background-image: url("../../img/images/image_début.jpg");
+    background-image: url("../../img/images/image_début.webp");
 }
 .info{
-    background-image: url("../../img/images/cables.jpg");
+    background-image: url("../../img/images/cables.webp");
 }
 .autres{
-    background-image: url("../../img/images/ensemble_rien_ne_peut_nous_arriver_grace_au_pouvoir_de_l_amitié.jpg");
+    background-image: url("../../img/images/ensemble_rien_ne_peut_nous_arriver_grace_au_pouvoir_de_l_amitié.webp");
 }
 .les-articles .fleche-suivant{
     right: 5rem;

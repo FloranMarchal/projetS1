@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="Description" content="D'autres sites iternet qui traitent du sujet de la pollution numérique">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=zoom, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="css/lib/normalize.css">
     <link rel="stylesheet" href="css/font/webfontkit-20201207-045519/stylesheet.css">
     <link rel="stylesheet" href="css/mescss/layout.css">
@@ -17,7 +18,7 @@
 <body>
 <nav class="bandeau">
     <a class="interface" href="index.html">
-        <img src="img/logo/logo%20rescom%20svg.svg" width="40rem" height="40rem" alt="Logo" onclick="this.parentNode.classList.toggle('active')">
+        <img src="img/logo/logo%20rescom%20svg.svg" width="40rem" height="40rem" alt="Logo" onclick="document.documentElement.classList.toggle('bandeau-open')">
     </a>
     <a class="interface">
         <img
@@ -62,7 +63,7 @@
 </div>
 <header>
     <div class="entete">
-        <img src="img/images/ensemble_rien_ne_peut_nous_arriver_grace_au_pouvoir_de_l_amitié.jpg" alt="kirito et ses amis">
+        <img src="img/images/ensemble_rien_ne_peut_nous_arriver_grace_au_pouvoir_de_l_amitié.webp" alt="kirito et ses amis">
         <h1>Autres Projets</h1>
     </div>
 </header>
@@ -93,7 +94,7 @@
 <footer>
     <h2>Floran MARCHAL - B2</h2>
     <p>Une remarque ? Une question ?</p>
-    <a href="propos.html" class="bouton-large">Contactez-moi</a>
+    <a href="propos.html" class="bouton-large" onclick="document.documentElement.classList.toggle('bandeau-open')">Contactez-moi</a>
     <ul>
         <li><a href="mailto:floranmarchal2002@gmail.com" rel="noopener" target="_blank"><span>Gmail</span></a></li>
         <li><a href="https://www.instagram.com/floragon222" rel="noopener" target="_blank"><span>Instagram</span></a></li>

@@ -87,7 +87,7 @@ h2{
     filter: opacity(62.5%);
 }
 .les-articles>h2,.les-gros-articles>h2,.les-petits-articles>h2,h1:not(.logo) {
-    backdrop-filter: blur(5px) brightness(0.4);
+    backdrop-filter: blur(6px) brightness(0.3);
     border: #f8b312 1px solid;
 }
 .acceuil>footer{

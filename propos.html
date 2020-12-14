@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="Description" content="Informations sur le créateur du site et page de contact avec un mailto">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -17,7 +18,7 @@
 <body>
 <nav class="bandeau">
     <a class="interface" href="index.html">
-        <img src="img/logo/logo%20rescom%20svg.svg" width="40rem" height="40rem" alt="Logo" onclick="this.parentNode.classList.toggle('active')">
+        <img src="img/logo/logo%20rescom%20svg.svg" width="40rem" height="40rem" alt="Logo" onclick="document.documentElement.classList.toggle('bandeau-open')">
     </a>
     <a class="interface">
         <img
@@ -62,7 +63,7 @@
 </div>
 <header>
     <div class="entete">
-        <img src="img/images/cables.jpg" alt="image de cables">
+        <img src="img/images/cables.webp" alt="image de cables">
         <h1>Infos Pratiques</h1>
     </div>
 </header>
@@ -107,7 +108,7 @@
 <footer>
     <h2>Floran MARCHAL - B2</h2>
     <p>Une remarque ? Une question ?</p>
-    <a href="propos.html" class="bouton-large">Contactez-moi</a>
+    <a href="propos.html" class="bouton-large" onclick="document.documentElement.classList.toggle('bandeau-open')">Contactez-moi</a>
     <ul>
         <li><a href="mailto:floranmarchal2002@gmail.com" rel="noopener" target="_blank"><span>Gmail</span></a></li>
         <li><a href="https://www.instagram.com/floragon222" rel="noopener" target="_blank"><span>Instagram</span></a></li>
