@@ -1,0 +1,35 @@
+<svg id="bouton_retour" data-name="bouton retour" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #d63f68;
+      }
+
+      .cls-1 {
+        stroke: #d63f68;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #fff;
+      }
+
+      .cls-3, .cls-5 {
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Ellipse_12" data-name="Ellipse 12" class="cls-1">
+    <circle class="cls-4" cx="20" cy="20" r="20"/>
+    <circle class="cls-5" cx="20" cy="20" r="19.5"/>
+  </g>
+  <g id="Ellipse_13" data-name="Ellipse 13" class="cls-2" transform="translate(2 2)">
+    <circle class="cls-4" cx="18" cy="18" r="18"/>
+    <circle class="cls-5" cx="18" cy="18" r="17.5"/>
+  </g>
+  <path id="Tracé_19" data-name="Tracé 19" class="cls-3" d="M30,15l5,4.954L30,25" transform="translate(-15 0)"/>
+  <path id="Tracé_20" data-name="Tracé 20" class="cls-3" d="M0,0,5,4.991,0,10" transform="translate(25 25) rotate(180)"/>
+</svg>

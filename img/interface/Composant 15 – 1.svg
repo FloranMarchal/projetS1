@@ -1,0 +1,42 @@
+<svg id="Composant_15_1" data-name="Composant 15 – 1" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #f8b312;
+      }
+
+      .cls-1 {
+        stroke: #f8b312;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="insta">
+    <g id="lettre_grise" data-name="lettre grise">
+      <g id="Ellipse_24" data-name="Ellipse 24" class="cls-1" transform="translate(40 40) rotate(180)">
+        <circle class="cls-4" cx="20" cy="20" r="20"/>
+        <circle class="cls-5" cx="20" cy="20" r="19.5"/>
+      </g>
+      <g id="Ellipse_25" data-name="Ellipse 25" class="cls-2" transform="translate(38 38) rotate(180)">
+        <circle class="cls-4" cx="18" cy="18" r="18"/>
+        <circle class="cls-5" cx="18" cy="18" r="17.5"/>
+      </g>
+    </g>
+    <path id="iconmonstr-linkedin-1" class="cls-3" d="M4.188,2.983A2.036,2.036,0,0,1,2.1,4.966,2.036,2.036,0,0,1,.017,2.983,2.036,2.036,0,0,1,2.1,1,2.036,2.036,0,0,1,4.188,2.983ZM4.2,6.552H0V19.243H4.2Zm6.712,0H6.739V19.243h4.179V12.581c0-3.7,5.07-4.007,5.07,0v6.662h4.195V11.207c0-6.25-7.5-6.023-9.266-2.946V6.552Z" transform="translate(10 9.63)"/>
+  </g>
+</svg>
