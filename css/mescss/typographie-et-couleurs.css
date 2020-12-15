@@ -4,15 +4,6 @@ color{
     color: #BFFFE4;
     color: #F8B312;
 }*/
-/*déclarations générales*/
-
-body{
-    width: 375px;
-}
-*{
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-}
 
 p{
     margin-bottom: 2rem;
@@ -21,13 +12,10 @@ p{
     position: absolute;
 }
 
-
-
 html{
     overflow-x: hidden;
     overflow-y: scroll;
     scroll-behavior: smooth;
-
 }
 
 
@@ -47,26 +35,36 @@ main{
     color: #eee;
 }
 
-p  {
+p,li{
     color: #4D4848;
     font-size: 1.6rem;
+    font-family: Roboto;
 }
 .menu h2,.les-articles h2,h1:not(.logo){
     font-family: sao_uiregular;
-    src:url("../font/webfontkit-20201207-045519/specimen_files/saoui-regular-webfont.woff") format('woff');
     color: #f8b312;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
+}
+h2,h3{
+    font-family: Roboto;
+    color: #956C0B;
 }
 h2{
-    color: #4D4848;
+    text-align: center;
+    font-size: 2.4rem;
+}
+h3{
+    font-size: 1.8rem;
+    text-align: center;
 }
 .citation {
     color: #eeeeee;
+
 }
 .citation p{
     color: #eeeeee;
 }
-.acceuil>header>.entete>p {
+.acceuil .entete>p {
     border: #eee 1px solid;
 }
 :not(header)>:not(a)>img {
@@ -102,4 +100,14 @@ footer>h2 {
 }
 .acceuil>footer>h2{
     color: #4D4848;
+}
+p a{
+    color: #956C0B;
+}
+/*footer*/
+.acceuil>footer>p{
+    color: #4D4848;
+}
+footer>p{
+    color: #eeeeee;
 }

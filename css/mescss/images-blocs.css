@@ -1,35 +1,44 @@
+/*déclarations générales*/
 
+body{
+    width: 375px;
+}
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
 :not(header)>:not(a)>img{
     width: 37.5rem;
     position: relative;
     left: -1rem;
 }
 
-
-
 /*entete*/
 .entete{
     position: relative;
     width: 37.5rem;
     height: 23.2rem;
+    left: -1rem;
 
 }
 .entete>img{
     width: 100%;
     height: 100%;
     position: absolute;
+    border: none;
+    left: 0;
 }
-.acceuil>header>.entete{
+.acceuil .entete{
     width: 37.5rem;
     height: 63.7rem;
-    padding-top: 25%;
+    padding-top: 12rem;
     background-image: url("../../img/images/sword_art_online_affiche.webp");
     background-position: top;
     background-size:135%;
     position: relative;
     top: 0;
 }
-header>.entete>.logo{
+.entete>.logo{
     background-image: url("../../img/logo/Groupe 8.png");
     background-repeat: no-repeat;
     display: block;
@@ -41,12 +50,20 @@ header>.entete>.logo{
     margin: auto;
 }
 
-/*main*/
-main{
-    padding: 1rem 0;
-    position: relative;
+/*menu*/
+.menu .les-gros-articles h2{
+    background-image: url("../../img/logo/Groupe 8.png");
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: -9999px;
+    background-position: center;
 }
 
+/*main*/
+main{
+    padding: 1rem 0 2rem 0;
+    position: relative;
+}
 
 .les-articles{
     height: 13.5rem;
@@ -64,12 +81,22 @@ main{
 
 }
 
-
 .citation{
     width: 37.5rem;
     position: relative;
     left: -1rem;
+    margin-bottom: 5rem;
+}
+
+/*vidéo*/
+.video a{
+    position: absolute;
+}
+video{
+    margin-left: -1rem;
+    margin-top: 10rem;
     margin-bottom: 2rem;
+    width: 37.5rem;
 }
 
 /*formulaire*/
@@ -88,16 +115,15 @@ label {
 input, textarea {
     font: 1em sans-serif;
     width: 300px;
+    height: 2em;
     border: 1px solid #f8b312;
 }
-
 input:focus, textarea:focus {
     border-color: #000;
 }
-
 textarea {
     vertical-align: top;
-    height: 5em;
+    height: 10rem;
 }
 .formulaire li:nth-child(6n){
     position: relative;
@@ -125,7 +151,6 @@ button {
 }
 
 /*footer*/
-
 footer{
     background-color: #4D4848;
     padding: 1rem;

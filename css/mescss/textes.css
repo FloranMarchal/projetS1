@@ -1,37 +1,41 @@
 
 h1:not(.logo){
     text-align: center;
-
     margin: 20% 12.5%;
-    padding: 1rem;
-    width: 75%;
-    height: 35%;
+    padding: 0.5rem;
     position: absolute;
 
 }
+/*listes*/
+ul{
+    padding: 0 3rem;
+}
+li{
+    list-style-type: square;
+}
+.formulaire ul,.galerie ul{
+    padding: 0;
+}
+/*paragraphes*/
 p  {
     width: 30rem;
     margin: auto;
     padding: 1rem 0;
 }
-li{
-    list-style: none;
-}
-ul{
-    padding: 0;
-}
 .citation p{
-    margin-bottom: 0;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin: 0 1rem;
+    padding-bottom: 0;
     width: 33rem;
 }
-.acceuil>header>.entete>p{
+.acceuil .entete>p{
     text-align: center;
     backdrop-filter: blur(5px) brightness(0.5);
+    padding: 1rem;
 }
-
-
+.acceuil>main p{
+    padding-bottom: 3rem;
+}
+/*titres*/
 .les-articles .article2 + h2{
     padding: 1.8rem;
 }
@@ -54,10 +58,3 @@ ul{
     height: 9.5rem;
 }
 
-/*footer*/
-.acceuil>footer>p{
-    color: #4D4848;
-}
-footer>p{
-    color: #eeeeee;
-}
